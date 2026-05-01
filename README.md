@@ -14,7 +14,7 @@ InternshipBot/
 └── TradingBot.log       # Auto-generated log file
 
 
-#Setup Instructions
+# Setup Instructions
 
 1. Create a virtual environment:
 python -m venv venv
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Open cli.py and replace API_KEY and SECRET_API_KEY variables with your actual Binance Testnet credentials, I have used my own Test Keys
 
 
-#How to Run
+# How to Run
 The bot uses standard terminal arguments to execute trades.
 
 1:- Place a Market Order:
@@ -37,7 +37,7 @@ python cli.py --symbol BTCUSDT --type MARKET --side BUY --quantity 0.001
 python cli.py --symbol BTCUSDT --type LIMIT --side SELL --quantity 0.001 --price 65000
 
 
-#Assumptions & Notes
+# Assumptions & Notes
 
 -The client strictly connects to the Binance Testnet (testnet=True).
 
