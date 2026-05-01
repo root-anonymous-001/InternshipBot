@@ -3,8 +3,8 @@ from TradingBot.client import get_binance_client
 from TradingBot.orders import place_order
 
 # API KEYS
-API_KEY = "ekJtpPlbcM05tjhEbF2MA2iNQD3LZk0XoQLR7RP9Mc06vYeA67V9GCEiCbh3ins7"
-SECRET_API_KEY = "Djb79JzsVYEFM3LniC8990UQj5mkoGxAaVlMnh60V560DeEinra0DyK3oR1ak0vt"
+API_KEY = "Your_API_KEY"
+SECRET_API_KEY = "Your_Secret_API_KEY"
 
 def main():
     parser = argparse.ArgumentParser(description="CLI Controlled Binance Futures Trading Bot !")
