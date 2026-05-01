@@ -24,7 +24,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 3. Configure API Keys:
-Open cli.py and replace API_KEY and SECRET_API_KEY variables with your actual Binance Testnet credentials, I have used my own Test Keys
+Open cli.py and replace API_KEY and SECRET_API_KEY variables with your actual Binance Testnet credentials.
 
 
 # How to Run
